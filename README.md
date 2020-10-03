@@ -13,4 +13,4 @@ För att använda REST-webbtjänsten går det att göra följande anrop
 * PUT    - https://webicon.se/tweug/dt173g/moment5/rest/index.php?id=1 {"code":"DT057G", "name":"Webbutveckling I", "progression":"A", "link":"https://www.miun.se/utbildning/kursplaner-och-utbildningsplaner/Sok-kursplan/kursplan/?kursplanid=22782"}
 * DELETE - https://webicon.se/tweug/dt173g/moment5/rest/index.php?id=1
 
-Webbapplikationen går att testa på [https://webicon.se/tweug/dt173g/moment5](https://webicon.se/tweug/dt173g/moment5).
+Webbapplikationen går att testa på [https://webicon.se/tweug/dt173g/moment5/client](https://webicon.se/tweug/dt173g/moment5/client).
