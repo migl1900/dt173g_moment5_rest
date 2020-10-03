@@ -1,0 +1,4 @@
+# Turn of intrucion filtering at web hotel
+<IfModule security2_module>
+    SecRuleRemoveByTag unoeuro
+</IfModule>
