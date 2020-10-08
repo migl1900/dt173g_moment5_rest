@@ -33,7 +33,7 @@ class Courses extends DbConnect {
         if(!$this->checkValue($this->linkVariable, $this->link)) {
             return false;
         }
-        $sql = "INSERT INTO dt173g_5_courses(code, name, progression, link) VALUES ('" . $this->code . "', '" . $this->name . "', '" . $this->progression . "', '" . $this->link . "')";
+        $sql = "INSERT INTO dt173g_5_courses(code, name, progression, link) VALUES ('$this->code', '$this->name', '$this->progression', '$this->link')";
         return $this->db->query($sql);
     }
 
